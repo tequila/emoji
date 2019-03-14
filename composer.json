@@ -1,0 +1,18 @@
+{
+    "name": "tequila/emoji",
+    "description": "PHP library to detect emojis in text with support of Unicode 11 emojis and skin tones",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Petr Buchin",
+            "email": "petrbuchin@protonmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": { "Tequila\\Emoji\\": "src/" }
+    }
+}
