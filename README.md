@@ -5,6 +5,13 @@ At the moment, library is able to detect all emoji, including added in Unicode 1
 Regular expression is taken from [Adam Merrifield's answer on Stack Overflow](https://stackoverflow.com/a/20208095)
 and is slightly modified to detect emoji with skin tones.
 
+## Installation
+The library should be installed by Composer:
+
+```bash
+composer require tequila/emoji
+```
+
 ## Usage
 
 ```php
@@ -20,3 +27,7 @@ $textContainsEmoji = Emoji::presentInText($text);
 // Detect all emoji in text
 $detectedEmoji = Emoji::detectInText($text); // ['😎', '😍', '😘', '👊🏿', '✊🏿', '🤛🏿']
 ```
+
+## Support
+
+If you need additional functionality - feel free to create an issue.
