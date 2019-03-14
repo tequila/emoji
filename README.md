@@ -22,7 +22,7 @@ use Tequila\Emoji\Emoji;
 $text = 'This string contains emojis: 😎 😍 😘👊🏿 ✊🏿 🤛🏿';
 
 // Check if text contains emoji
-$textContainsEmoji = Emoji::presentInText($text);
+$textContainsEmoji = Emoji::presentInText($text); // true
 
 // Detect all emoji in text
 $detectedEmoji = Emoji::detectInText($text); // ['😎', '😍', '😘', '👊🏿', '✊🏿', '🤛🏿']
